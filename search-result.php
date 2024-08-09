@@ -15,7 +15,8 @@ echo "Failed to connect to MySQL: " . mysqli_connect_error();
 
     </head>
     <body>
-      
+    <h1 style="background:#ccc; padding:50px;">GREAN CAMPUS Manage Students 
+    </h1>
          <?php include_once('includes/navbar.php');?>
                     <div>
                         <h1>
@@ -29,9 +30,11 @@ Search Results</h1>
                                 <table>
                                     <thead>
                                         <tr>
-                                  <th>First Name</th>
-                                  <th> Last Name</th>
+                                
+                                        <th>Full Name</th>
+                                  <th>  Name with initials</th>
                                   <th> Email Id</th>
+                                  <th>NIC</th>
                                   <th>Contact no.</th>
                                   <th>Reg. Date</th>
                                   <th>Action</th>

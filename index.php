@@ -27,10 +27,10 @@ echo "<script>alert('Data deleted');</script>";
 
     </head>
     <body>
-    <h2 style="background:green; color:#fff">GREAN CAMPUS Manage Students 
-<img src="img/student.png" alt="st" style="width:200px;float:right;"/>
-    </h2>
-    
+    <h1 style="background:#ccc; padding:50px;">GREAN CAMPUS Manage Students 
+    </h1>
+    <img src="img/student.png" alt="st" style="width:200px;float:right;"/>
+
          <?php include_once('includes/navbar.php');?>
                     <div>
                         

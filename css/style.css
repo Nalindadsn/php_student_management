@@ -3,8 +3,6 @@ body{
 }
 /* Default Table Style */
 table {
-  color: yellow;
-  background: green;
   border: 1px solid grey;
   font-size: 12pt;
   border-collapse: collapse;
@@ -13,6 +11,10 @@ table {
 
 table caption {
   padding:.5em;
+}
+
+table th{
+  background-color: #00c52b;
 }
 table th,
 table td {
@@ -26,7 +28,7 @@ img{
   width: 100%;
 }
 .nav a{
-  background: #333;
+  background: #00dd30;
   color: #fff;
   padding: 10px;
   margin: 5px;
@@ -34,7 +36,7 @@ img{
 
 }
 .nav a:hover{
-background: #111;
+background: #00c52b;
 }
 .nav form{
   float: right;

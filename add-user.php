@@ -17,7 +17,7 @@ if(isset($_POST['submit']))
     $email=$_POST['email'];
     $contact=$_POST['contact'];
     $indexNo=$_POST['indexNo'];
-    $intake=$_POST['intake'];
+    $course=$_POST['course'];
     $nic=$_POST['nic'];
 $sql=mysqli_query($con,"select id from users where email='$email'");
 $row=mysqli_num_rows($sql);
@@ -25,12 +25,12 @@ if($row>0)
 {
     echo "<script>alert('Email id already exist with another account. Please try with other email id');</script>";
 } else{
-    $msg=mysqli_query($con,"insert into users(email,contactno,fullName,nameWithInitials,indexNo,intake,nic) values('$email','$contact','$fullName','$nameWithInitials','$indexNo','$intake','$nic')");
+    $msg=mysqli_query($con,"insert into users(email,contactno,fullName,nameWithInitials,indexNo,course,nic) values('$email','$contact','$fullName','$nameWithInitials','$indexNo','$course','$nic')");
 
 if($msg)
 {
     echo "<script>alert('Registered successfully');</script>";
-    echo "<script type='text/javascript'> document.location = 'manage-users.php'; </script>";
+    echo "<script type='text/javascript'> document.location = 'index.php'; </script>";
 }
 }
 }
@@ -45,8 +45,9 @@ if($msg)
 
     </head>
     <body>
+                <h1 style="background:#ccc; padding:50px;">GREAN CAMPUS Manage Students 
+                </h1>
                 <?php include_once('includes/navbar.php');?>
-
         
                         <h1>Create Account</h1>
                        

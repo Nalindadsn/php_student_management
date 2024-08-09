@@ -35,7 +35,8 @@ if($msg)
 
     </head>
     <body>
-      
+    <h1 style="background:#ccc; padding:50px;">GREAN CAMPUS Manage Students 
+    </h1>
           <?php include_once('includes/navbar.php');?>
                         
 <?php 
