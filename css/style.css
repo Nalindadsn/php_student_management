@@ -1,0 +1,41 @@
+body{
+  font-family: sans-serif;
+}
+/* Default Table Style */
+table {
+  color: yellow;
+  background: green;
+  border: 1px solid grey;
+  font-size: 12pt;
+  border-collapse: collapse;
+  width: 100%
+}
+
+table caption {
+  padding:.5em;
+}
+table th,
+table td {
+  padding: .5em;
+  border: 1px solid lightgrey;
+}
+table a{
+  color: tomato;
+}
+img{
+  width: 100%;
+}
+.nav a{
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+  text-decoration: none;
+
+}
+.nav a:hover{
+background: #111;
+}
+.nav form{
+  float: right;
+}
