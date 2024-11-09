@@ -1,6 +1,7 @@
-body{
+body {
   font-family: sans-serif;
 }
+
 /* Default Table Style */
 table {
   border: 1px solid grey;
@@ -10,24 +11,28 @@ table {
 }
 
 table caption {
-  padding:.5em;
+  padding: .5em;
 }
 
-table th{
+table th {
   background-color: #00c52b;
 }
+
 table th,
 table td {
   padding: .5em;
   border: 1px solid lightgrey;
 }
-table a{
+
+table a {
   color: tomato;
 }
-img{
+
+img {
   width: 100%;
 }
-.nav a{
+
+.nav a {
   background: #00dd30;
   color: #fff;
   padding: 10px;
@@ -35,9 +40,11 @@ img{
   text-decoration: none;
 
 }
-.nav a:hover{
-background: #00c52b;
+
+.nav a:hover {
+  background: #00c52b;
 }
-.nav form{
+
+.nav form {
   float: right;
 }

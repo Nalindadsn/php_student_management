@@ -12,8 +12,7 @@ echo "Failed to connect to MySQL: " . mysqli_connect_error();
 <html lang="en">
     <head>
         <title>User Profile </title>
-                <link rel="stylesheet" type="text/css" href="css/style.css">
-
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
     <h1 style="background:#ccc; padding:50px;">GREAN CAMPUS Manage Students 
